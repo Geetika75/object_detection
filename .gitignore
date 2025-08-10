@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Large files (YOLO models & datasets)
+*.pt
+*.weights
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.cfg
+dataset/
+runs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
